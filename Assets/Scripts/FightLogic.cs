@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class FightLogic : MonoBehaviour
 {
@@ -13,18 +14,39 @@ public class FightLogic : MonoBehaviour
     public GameObject deathEffectPrefab1;
     public GameObject deathEffectPrefab2;
     public InputActionReference shootAction;
+    public GameObject lifeBarPrefab;
+    private GameObject healthBar;
 
     void Start()
     {
         spawnManager = Object.FindFirstObjectByType<SpawnManager>();
         weaponTrack = Object.FindFirstObjectByType<WeaponTrack>();
         shootAction.action.Enable();
+
+        if (lifeBarPrefab != null)
+        {
+            healthBar = Instantiate(lifeBarPrefab, transform.position + Vector3.up, Quaternion.identity);
+            healthBar.transform.SetParent(transform);
+            healthBar.transform.localPosition = new Vector3(0, 5, 0);
+        }
     }
 
     void Update()
     {
         if (shootAction.action.triggered)
             Shoot();
+
+        if (healthBar != null)
+        {
+            healthBar.transform.position = transform.position + Vector3.up * 3.5f; // Position above enemy
+            Vector3 directionToCamera = Camera.main.transform.position - healthBar.transform.position;
+            healthBar.transform.rotation = Quaternion.LookRotation(directionToCamera) * Quaternion.Euler(0, 180, 0); // Face camera
+
+            // Update health bar UI
+            Image healthBarImage = healthBar.GetComponentInChildren<Image>();
+            if (healthBarImage != null)
+                healthBarImage.fillAmount = (float)health / 100; // Update base on current health\
+        }
     }
 
     void Shoot()
@@ -82,6 +104,7 @@ public class FightLogic : MonoBehaviour
     private void Die()
     {
         PlayDeathEffects(transform.position);
+        Destroy(healthBar);
         Destroy(gameObject);
         HandleKill();
     }

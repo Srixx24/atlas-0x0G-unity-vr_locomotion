@@ -348,7 +348,6 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\CalibratePlayerHeight.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
-    <Compile Include="Assets\Scripts\CameraPathScroller.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\InterfaceManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_LightCurves.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbableUnityEvents.cs" />
