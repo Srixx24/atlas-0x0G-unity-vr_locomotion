@@ -275,6 +275,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\FPSText.cs" />
+    <Compile Include="Assets\Scripts\EntryPoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\FollowRigidbody.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\WeaponManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\Arrow.cs" />
@@ -347,6 +348,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\CalibratePlayerHeight.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\CameraPathScroller.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\InterfaceManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_LightCurves.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbableUnityEvents.cs" />

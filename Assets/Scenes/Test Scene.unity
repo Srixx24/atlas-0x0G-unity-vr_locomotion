@@ -387,53 +387,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 171314576577559887, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 241040910819794534, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2769686336188874625, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5656222729372346231, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
       propertyPath: bowGrabPoint
       value: 
       objectReference: {fileID: 1269911526}
     - target: {fileID: 5656222729372346231, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: currentWeapon
-      value: 
-      objectReference: {fileID: 8279170931241453572, guid: 594a5f86c7ebe2249a2bf5aafcf62dd3, type: 3}
-    - target: {fileID: 5656222729372346231, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
       propertyPath: swordGrabPoint
       value: 
       objectReference: {fileID: 350018045}
-    - target: {fileID: 5656222729372346231, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: switchWeaponAction
-      value: 
-      objectReference: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6375796301791938514, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6842866167197740515, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
       propertyPath: m_Name
       value: Managers
-      objectReference: {fileID: 0}
-    - target: {fileID: 6842866167197740515, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7928161067365053457, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8015023838293921414, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8111470117844584757, guid: 430000567b0b35048a846a6c1d2c9605, type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999638345528222922, guid: d2fcdde57b8a95d43a914f47fd134fa1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5452434810690085406, guid: d2fcdde57b8a95d43a914f47fd134fa1, type: 3}
       propertyPath: m_LocalPosition.x

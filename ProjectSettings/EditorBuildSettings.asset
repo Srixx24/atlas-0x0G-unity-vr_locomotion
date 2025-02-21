@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Packs/Dynamic Destruction And Gibs System/Scenes/DemonstrationDay.unity
-    guid: a331d90ee056d364cae47a90ab51fa2c
+    path: Assets/Scenes/Entry Point.unity
+    guid: b25893d569864b54a9f3420fc4ce7518
   - enabled: 1
-    path: Assets/Packs/Dynamic Destruction And Gibs System/Scenes/DemonstrationNight.unity
-    guid: 85b1a8fbdde62d14d85a762c620a160f
+    path: Assets/Scenes/Sliverwind Grove.unity
+    guid: bb396e6e157700449a7348c1622a01a3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
