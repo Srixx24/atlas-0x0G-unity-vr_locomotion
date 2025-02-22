@@ -14,6 +14,8 @@ public class SpawnManager : MonoBehaviour
     public int treeIntCount = 2;
     private GameObject[] spawnArea;
     private GameObject bossSpawn;
+    private List<GameObject> currentEnemies = new List<GameObject>();
+
 
     void Start()
     {
@@ -33,7 +35,6 @@ public class SpawnManager : MonoBehaviour
     void SpawnEnemy(GameObject enemyPrefab, int count)
     {
         List<GameObject> availableSpawnAreas = new List<GameObject>(spawnArea);
-
         count = Mathf.Min(count, availableSpawnAreas.Count);
 
         for (int i = 0; i < count; i++)
@@ -46,7 +47,8 @@ public class SpawnManager : MonoBehaviour
             Vector3 spawnPosition = GetSpawnPosition(selectedSpawnArea);
 
             // Instantiate the enemy
-            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            currentEnemies.Add(enemy);
 
             availableSpawnAreas.RemoveAt(randomIndex);
         }
@@ -61,6 +63,16 @@ public class SpawnManager : MonoBehaviour
             Random.Range(spawnCollider.bounds.min.z, spawnCollider.bounds.max.z)
         );
         return randomPosition;
+    }
+
+    public void ResetEnemies()
+    {
+        // Destroy all currently spawned enemies
+        foreach (GameObject enemy in currentEnemies)
+            Destroy(enemy);
+
+        currentEnemies.Clear();
+        SpawnEnemies();
     }
 
     public void SpawnBoss()

@@ -410,6 +410,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3af83311772f6f42825f33d87641a66, type: 3}
+--- !u!1001 &540561128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 875047149736625951, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_Name
+      value: Death Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 875047149736625951, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11803055
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9902873
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5616288
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376489440471006046, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
 --- !u!4 &643114024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4311897416754021285, guid: 7033cd22fdfe2f74b80d8c4eb54f7250, type: 3}
@@ -710,6 +771,22 @@ Transform:
   - {fileID: 2103531049}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1676457661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7483475703329211273, guid: d49bd460f6407aa42ad9a27b81e776cd, type: 3}
+  m_PrefabInstance: {fileID: 6010268488684798327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1784382348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 875047149736625951, guid: 02237e0ddbc44c042a29e21ca3aef807, type: 3}
+  m_PrefabInstance: {fileID: 540561128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1841974694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5519102673747606315, guid: 7033cd22fdfe2f74b80d8c4eb54f7250, type: 3}
@@ -738,6 +815,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8110313513250880878, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 241835260005928553, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
       propertyPath: m_Name
       value: Elysia Pawstrider - New
@@ -758,6 +839,18 @@ PrefabInstance:
       propertyPath: rightHand.vrTarget
       value: 
       objectReference: {fileID: 1030080090}
+    - target: {fileID: 6346890394886867194, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346890394886867194, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
+      propertyPath: deathCanvas
+      value: 
+      objectReference: {fileID: 1784382348}
+    - target: {fileID: 6346890394886867194, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
+      propertyPath: lifeBarImage
+      value: 
+      objectReference: {fileID: 1676457661}
     - target: {fileID: 7304517784376468733, guid: ce520df759eaad54ba4d1fb8842ec217, type: 3}
       propertyPath: m_WarningMessage
       value: "\nBinding warning: Some generic clip(s) animate transforms that are
@@ -1871,6 +1964,7 @@ SceneRoots:
   - {fileID: 1783415510076124610}
   - {fileID: 790111648}
   - {fileID: 1586432272}
+  - {fileID: 540561128}
   - {fileID: 351094926}
   - {fileID: 933857778}
   - {fileID: 1978577676}

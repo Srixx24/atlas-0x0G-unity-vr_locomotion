@@ -4,7 +4,7 @@ public class EnemyWander : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float wanderRadius = 5f;
-    public float attackRange = 2f;
+    public float attackRange = 6f;
     public Transform playerTransform;
     private Vector3 targetPosition;
     private Animator animator;
@@ -15,7 +15,6 @@ public class EnemyWander : MonoBehaviour
         float randomYRotation = Random.Range(0f, 360f);
         transform.rotation = Quaternion.Euler(0f, randomYRotation, 0f);
 
-        // Start with Look Around
         animator.SetBool("isLooking", true);
         SetRandomTargetPosition();
     }
@@ -24,11 +23,13 @@ public class EnemyWander : MonoBehaviour
     {
         // Check distance to player
         float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
+        bool playerInRange = distanceToPlayer < attackRange;
+
+        animator.SetBool("playerInRange", playerInRange);
 
         // Handle state transitions
         if (animator.GetBool("isLooking"))
         {
-            // If looking is done, switch to walking
             if (Time.time > 2f)
             {
                 animator.SetBool("isLooking", false);
@@ -37,20 +38,35 @@ public class EnemyWander : MonoBehaviour
         }
         else if (animator.GetBool("isWalking"))
         {
-            // Move towards the target position
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-
-            // Check if the player is within attack range
-            if (distanceToPlayer < attackRange)
+            if (playerInRange)
             {
-                animator.SetBool("isWalking", false);
-                animator.SetBool("isAttacking", true);
+                // Move to player
+                transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, moveSpeed * Time.deltaTime);
+                AttackPlayer();
             }
-
-            // Check if the enemy has reached the target position
-            if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
-                SetRandomTargetPosition();
+            else
+            {
+                // Wander if out of range
+                transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+                if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
+                    SetRandomTargetPosition();
+            }
         }
+    }
+
+    private void AttackPlayer()
+    {
+        Vector3 turnToPlayer = playerTransform.position - transform.position;
+        transform.rotation = Quaternion.LookRotation(turnToPlayer);
+
+        animator.SetBool("isWalking", true);
+        animator.SetBool("isAttacking", true);
+        animator.SetBool("playerInRange", true);
+
+        // Apply damage
+        PlayerLife playerLife = playerTransform.GetComponent<PlayerLife>();
+        if (playerLife != null)
+            playerLife.TakeDamage(gameObject);
     }
 
     private void SetRandomTargetPosition()

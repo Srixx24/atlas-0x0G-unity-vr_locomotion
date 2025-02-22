@@ -43,6 +43,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - QDSUISection
   - Boss Spawn Area
+  - HitBox
   layers:
   - Default
   - TransparentFX
