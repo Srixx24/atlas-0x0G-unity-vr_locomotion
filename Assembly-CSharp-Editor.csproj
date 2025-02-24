@@ -73,6 +73,7 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Editor\GrabbableEditor.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Editor\GrabbableEditor.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\Editor\RFX4_UberDistortionGUI.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Editor\GrassStylizedShaderInspector.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Editor\AutoPoserEditor.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Editor\GrabPointTriggerEditor.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Editor\TrackedDeviceEditor.cs" />
@@ -1203,6 +1204,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="glTFast.dots">
       <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
       <Private>False</Private>
@@ -1247,16 +1252,20 @@
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.XR.Hands.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1367,10 +1376,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1435,12 +1440,20 @@
       <HintPath>Library\ScriptAssemblies\ReadyPlayerMe.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReadyPlayerMe.AvatarCreator.Editor">
       <HintPath>Library\ScriptAssemblies\ReadyPlayerMe.AvatarCreator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
@@ -1503,10 +1516,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
@@ -1561,8 +1570,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
     <ProjectReference Include="Assembly-CSharp.csproj" />
-    <ProjectReference Include="MalbersAnimations.Cinemachine.csproj" />
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj" />
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.csproj" />
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
     <ProjectReference Include="MalbersAnimations.csproj" />

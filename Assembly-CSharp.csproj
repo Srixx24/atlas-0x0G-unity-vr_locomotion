@@ -79,28 +79,35 @@
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\3D UI\Elements\PopElement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassShaderInteractor.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\BowArm.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\VehicleController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\HandModelSwitcher.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Drawing\Drawing.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\Marker.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\Shake.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\3D UI\Elements\HighlightElement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\Button.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_AudioCurves.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\MagicOrb.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\HeadCollisionFade.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\BNGPlayerController.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\UnityVersionCompatibility.cs" />
     <Compile Include="Assets\Packs\HEROIC FANTASY CREATURES FULL PACK VOL 1\Main Baddies\Demon Lord\Script\ScrollingUVs.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\ToggleController.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Rendering\RFX4_PerPlatformSettings.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_ParticleGravityPoint.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\PositionAnimator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.2.0\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\IKFeet.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\JoystickVehicleControl.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_DeactivateRigidbodyByTime.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoSceneCombat.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\AmmoDispenser.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbableEvents.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\AutoHide.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\RaycastWeapon.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_DemoReactivation.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\CharacterConstraint.cs" />
@@ -115,12 +122,14 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\JoystickControl.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\JointHelper.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerGravity.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\RotateToFromAnimator.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.2.0\Animation Rigging Constraint Samples\Scripts\mParent.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Debug Tools\Scripts\XRSelectedHandShapeDebugUI.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_CameraShake.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\VRTextInput.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\ParticleSysem\RFX4_ParticleLight.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_TornadoParticles.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoNekoCombatCharacter.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Debug Tools\Scripts\XRHandShapeDebugUI.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\GrappleShot.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\SceneSwitchManager.cs" />
@@ -128,24 +137,32 @@
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\ImpactSoundBehaviour.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCameraSceneTargetsWithFocus.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Progress Bar\Scripts\ScrollingUVs.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\ButterflySpawn.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCameraController.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\BoneMapping.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Progress Bar\Scripts\HorizontalProgressBar.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_TrailRenderer.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\ConstrainLocalPosition.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassSettings.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\ScaleAnimator.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassShaderRenderer.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\UniversalMenuWindow.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\FingerJoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\GrabbableRingHelper.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_PhysicsMotion.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\Bullet.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\CircleAnimator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\AmmoDisplay.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\InputBridge.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\BushLeafTrigger.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_PhysXSetImpulse.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\ToggleActiveOnInputAction.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\MusicWaterMark.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\NLBaseEditorWindow.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\FingerTipCollider.cs" />
     <Compile Include="Assets\Scripts\FightLogic.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Script\Togglescript.cs" />
@@ -154,6 +171,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\HandPoseBlender.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\SceneResources\Other\RFX4_MouseOrbit.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\CharacterIK.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\ShaderGUIBase.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\MoveToWaypoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\DetachableLimb.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerMovingPlatformSupport.cs" />
@@ -161,13 +179,18 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\BulletInsert.cs" />
     <Compile Include="Assets\Scripts\EnemyWander.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoClothingPose.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\EditorGUIBase.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\PlaySoundOnGrab.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\GalleryController.cs" />
     <Compile Include="Assets\VR Body\IKFootSolver.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\PermissionsManager.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\NL3DCursorManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\Explosive.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassCulling.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Scaling\ScaleUIButton.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SnapZoneOffset.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoNekoCharacter.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\Lever.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\Climbable.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Camera\Picture.cs" />
@@ -179,6 +202,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\GrabPointTrigger.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\HandJet.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\ArrowGrabArea.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\Utils.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\RotateWithHMD.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\MagazineSlide.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_DeactivateByTime.cs" />
@@ -190,6 +214,8 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Colors\ColorTheme.cs" />
     <Compile Include="Assets\Scripts\RezManager.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\3D UI\Elements\Element.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCharacterTypeB.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Abstract\A_ColorController.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\ImageController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\ScaleBetweenPoints.cs" />
@@ -202,15 +228,18 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\CharacterYOffset.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_TextureShaderProperties.cs" />
     <Compile Include="Assets\Scripts\AvatarController.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoScenes.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Handlers\BasicGrabbable.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_RotateAround.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_ParticleCollisionGameObject.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\FoodDemo.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Script\Slide.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\LineToTransform.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\EffectSettings\RFX4_EffectSettingsInspector.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Demo\DemoController.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Drawing\Pen.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\LookAtTransform.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCharacterTypeC.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\Grabbable.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SteeringWheel.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Trail\Trail.cs" />
@@ -222,8 +251,9 @@
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_ShaderProperties.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scenes\XR Demo\DemoCube.cs" />
-    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\RagdollHelper.cs" />
+    <Compile Include="Assets\Scripts\TransitionManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\Tooltip.cs" />
+    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\RagdollHelper.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_CustomLight.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\TabButtonController.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\VegetationBendControl.cs" />
@@ -235,7 +265,9 @@
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Examples\Scripts\StaticHandGesture.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\FlyCameraManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\LiquidWobble.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\CloudRotator.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\DestroyTimerBehaviour.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\ToolsMenu\CopyPastePose.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\SampleHandController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\Waypoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\HandPoseDefinition.cs" />
@@ -246,6 +278,7 @@
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\ParticleSysem\RFX4_CollisionPropertyDeactiavtion.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Progress Bar\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\GrabbableHighlight.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoMusicToggle.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\PlayerMovementManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\SceneResources\Other\RFX4_DemoGUI.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\JointBreaker.cs" />
@@ -268,6 +301,7 @@
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Debug Tools\Scripts\XRFingerShapeDebugUI.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\IKDummy.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\AutoDestroy.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\GrabberArea.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\StaticBatch.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Utility\DestroyIfPlayMode.cs" />
@@ -275,6 +309,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\Packs\Nature Sets\Main Set\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\FPSText.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\ScrollingBackground.cs" />
     <Compile Include="Assets\Scripts\EntryPoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\FollowRigidbody.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\WeaponManager.cs" />
@@ -301,12 +336,15 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\VRKeyboardKey.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\PunctureCollider.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\SwayAnimator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Utility\VRUtils.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\VFXUVScroll.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.4.3\HandVisualizer\Scripts\HandVisualizer.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\UITrigger.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\SceneResources\Other\RFX4_Debug.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\VRUISystem.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoMusicPlayer.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\HandSubsystemManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\ProjectileLauncher.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_MaterialQueue.cs" />
@@ -326,8 +364,8 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Colors\ColorChanger.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\LaserSword.cs" />
-    <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_ShaderFloatCurve.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerTeleport.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_ShaderFloatCurve.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\TrackedDevice.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\HandCollision.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\DrawerSound.cs" />
@@ -346,8 +384,10 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\Damageable.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\VREmulator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\CalibratePlayerHeight.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\ClothingAddOn.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\PatrolAnimator.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\InterfaceManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_LightCurves.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbableUnityEvents.cs" />
@@ -357,7 +397,9 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabPoint.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbableChild.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Debug Tools\Scripts\XRFingerShapeDebugBar.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\MiniGameGUI.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scenes\XR Demo\DemoScript.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCameraScene.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Drawing\PenColorChanger.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\UICanvasGroup.cs" />
@@ -368,12 +410,17 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\3D UI\Collections\Collection.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\InputController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\Grabber.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassMeshRenderer.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Utilities\Util.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoClothingSets.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\ParticleSysem\RFX4_Turbulence.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
     <Compile Include="Assets\Packs\UI Sets\UI build package\Progress Bar\Scripts\VerticalProgressBar.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\RotateAnimator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SnapZoneScale.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\BGMManager.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Abstract\A_UIIntercations.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\NLEditorInspector.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\PlayerCameraManager.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\ForceBehaviour.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_ShaderColorGradient.cs" />
@@ -393,9 +440,11 @@
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Settings\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
     <None Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\Portal\RFX4_PortalSky.shader" />
+    <None Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Grass.hlsl" />
     <None Include="Assets\Packs\VR Interaction Framework\Materials\ColumnGlowShaderLicense.txt" />
     <None Include="Assets\Packs\VR Interaction Framework\HandPoser\Third-Party Notices.txt" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\GrassStylizedShaderUnlit.shader" />
     <None Include="Assets\Packs\VR Interaction Framework\Textures\particleTextures.txt" />
     <None Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\Portal\RFX4_PortalMask.shader" />
     <None Include="Assets\Packs\VR Interaction Framework\Fonts\license.txt" />
@@ -417,13 +466,16 @@
     <None Include="Assets\Settings\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Packs\HEROIC FANTASY CREATURES FULL PACK VOL 1\Not In Use\Golem\Shader\SelfIllumBumpedSpecular.shader" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\GrassBlades.compute" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\ReadMe.txt" />
     <None Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\RFX4_UberDecal.shader" />
     <None Include="Assets\Settings\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\Portal\RFX4_PortalRockStencil.shader" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\GrassStylizedShaderLit.shader" />
     <None Include="Assets\Settings\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Packs\VR Interaction Framework\Integrations\Invector\Instructions.txt" />
     <None Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Shaders\RFX4_UberDistortion.shader" />
@@ -1470,6 +1522,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="glTFast.dots">
       <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
       <Private>False</Private>
@@ -1514,16 +1570,20 @@
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.XR.Hands.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1634,10 +1694,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1702,12 +1758,20 @@
       <HintPath>Library\ScriptAssemblies\ReadyPlayerMe.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReadyPlayerMe.AvatarCreator.Editor">
       <HintPath>Library\ScriptAssemblies\ReadyPlayerMe.AvatarCreator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
@@ -1770,10 +1834,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
@@ -1828,7 +1888,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MalbersAnimations.Cinemachine.csproj" />
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.csproj" />
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
     <ProjectReference Include="MalbersAnimations.csproj" />

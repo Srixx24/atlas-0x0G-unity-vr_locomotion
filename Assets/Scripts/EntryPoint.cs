@@ -10,6 +10,7 @@ public class EntryPoint : MonoBehaviour
     public Button exitButton;
     private AudioSource audioSource;
     public AudioClip buttonClickSound;
+    public TransitionManager transitionManager;
 
 
     void Start()
@@ -30,13 +31,13 @@ public class EntryPoint : MonoBehaviour
     private void OnStartButtonClick()
     {
         PlayButtonClickSound();
-        SceneManager.LoadScene(1);
+        transitionManager.LoadScene(1);
     }
 
     private void OnOptionsButtonClick()
     {
         //PlayButtonClickSound();
-        //SceneManager.LoadScene();
+        //transitionManager.LoadScene();
     }
 
     private void OnExitButtonClicked()

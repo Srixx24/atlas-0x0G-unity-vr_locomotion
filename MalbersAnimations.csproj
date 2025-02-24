@@ -106,9 +106,9 @@
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Core\MalbersEvents.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Behaviors\EventBehaviour.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Core\Interfaces\IRider.cs" />
-    <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Animal Controller\States\WallRun.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Core\Interfaces\IWayPoint.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Animal Controller\AI Brain\Tasks\InvokeEventTask.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Animal Controller\States\WallRun.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Path Constraint\PathCreator\Core\Editor\Helper\PathHandle.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Utilities\Triggers\TriggerProxy.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Scripts\Animal Controller\AI Brain\Decisions\TaskDecision.cs" />

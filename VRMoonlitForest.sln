@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.Avata
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{56B472E4-B5BB-2E74-1120-511C82858E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalbersAnimations.Cinemachine", "MalbersAnimations.Cinemachine.csproj", "{86C275F7-34D2-72F9-9A9B-759E3AAA1A8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{31BC9662-802E-79F1-FC2D-98B40CD19547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{41A7D26F-2DD1-37B4-58EE-B246DEB1D51F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{826AA27F-6136-19AF-F152-9B8B497324D6}"
 EndProject
@@ -43,10 +45,14 @@ Global
 		{56B472E4-B5BB-2E74-1120-511C82858E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B472E4-B5BB-2E74-1120-511C82858E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B472E4-B5BB-2E74-1120-511C82858E49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86C275F7-34D2-72F9-9A9B-759E3AAA1A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86C275F7-34D2-72F9-9A9B-759E3AAA1A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86C275F7-34D2-72F9-9A9B-759E3AAA1A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86C275F7-34D2-72F9-9A9B-759E3AAA1A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BC9662-802E-79F1-FC2D-98B40CD19547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BC9662-802E-79F1-FC2D-98B40CD19547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BC9662-802E-79F1-FC2D-98B40CD19547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BC9662-802E-79F1-FC2D-98B40CD19547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A7D26F-2DD1-37B4-58EE-B246DEB1D51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A7D26F-2DD1-37B4-58EE-B246DEB1D51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A7D26F-2DD1-37B4-58EE-B246DEB1D51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A7D26F-2DD1-37B4-58EE-B246DEB1D51F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{826AA27F-6136-19AF-F152-9B8B497324D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{826AA27F-6136-19AF-F152-9B8B497324D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826AA27F-6136-19AF-F152-9B8B497324D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
