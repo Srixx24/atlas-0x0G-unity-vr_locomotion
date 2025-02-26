@@ -12,12 +12,12 @@ public class PlayerLife : MonoBehaviour
     public GameObject deathCanvas;
 
 
-
     void Start()
     {
         rezManager = Object.FindFirstObjectByType<RezManager>();
         spawnManager = Object.FindFirstObjectByType<SpawnManager>();
         UpdateLifeBar();
+        Object.FindFirstObjectByType<FightLogic>().HealOverTime();
         if (deathCanvas != null)
             deathCanvas.SetActive(false);
     }

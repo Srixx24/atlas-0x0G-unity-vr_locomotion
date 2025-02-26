@@ -69,6 +69,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\AutoPoser.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\KeyboardButton.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerRotation.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Character\VR Body\IKTargetFollowVRRig.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\ColorPickerController.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SmoothLocomotion.cs" />
@@ -77,9 +78,9 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\ButtonController.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\LoginController.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\Callout.cs" />
+    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassShaderInteractor.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\3D UI\Elements\PopElement.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
-    <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Shaders\StylizedGrassShader\Scripts\GrassShaderInteractor.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\BowArm.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\VehicleController.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\HandModelSwitcher.cs" />
@@ -99,9 +100,9 @@
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Rendering\RFX4_PerPlatformSettings.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_ParticleGravityPoint.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\PositionAnimator.cs" />
+    <Compile Include="Assets\Scripts\EndGame.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.2.0\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\IKFeet.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\JoystickVehicleControl.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_DeactivateRigidbodyByTime.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoSceneCombat.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PointerEvents.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\EditorHandle.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\DropdownController.cs" />
+    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\ScreenFader.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\JoystickControl.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\JointHelper.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerGravity.cs" />
@@ -128,8 +130,8 @@
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_CameraShake.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\VRTextInput.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\ParticleSysem\RFX4_ParticleLight.cs" />
-    <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_TornadoParticles.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoNekoCombatCharacter.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_TornadoParticles.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.4.3\Gestures\Debug Tools\Scripts\XRHandShapeDebugUI.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\GrappleShot.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Managers\SceneSwitchManager.cs" />
@@ -183,7 +185,6 @@
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\EditorGUIBase.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\PlaySoundOnGrab.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\GalleryController.cs" />
-    <Compile Include="Assets\VR Body\IKFootSolver.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\PermissionsManager.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\NL3DCursorManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\Explosive.cs" />
@@ -238,11 +239,12 @@
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\EffectSettings\RFX4_EffectSettingsInspector.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Demo\DemoController.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Drawing\Pen.cs" />
-    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\LookAtTransform.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\DemoCharacterTypeC.cs" />
+    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\LookAtTransform.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\Grabbable.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SteeringWheel.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Trail\Trail.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Character\VR Body\IKFootSolver.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\HandleGFXHelper.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\HeadCollisionMove.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\SceneResources\Other\RFX4_RealtimeReflection.cs" />
@@ -294,7 +296,6 @@
     <Compile Include="Assets\Scripts\Compass.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Camera\CameraVR.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\SnapZone.cs" />
-    <Compile Include="Assets\VR Body\AnimateOnInput.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Dynamic Destruction And Gibs System\Scripts\Behaviours\DetachChildrenBehaviour.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\RFX4_ColorHelper.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\Rotator.cs" />
@@ -331,7 +332,6 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\HandPose.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\ParticleSysem\RFX4_ParticleGravityDelay.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\TextController.cs" />
-    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\ScreenFader.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\VRUIPManager.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\VRKeyboardKey.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\PunctureCollider.cs" />
@@ -353,7 +353,6 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\UI\Keyboard.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\XRTrackedPoseDriver.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\HandPoser\Scripts\SavePoseBinding.cs" />
-    <Compile Include="Assets\VR Body\IKTargetFollowVRRig.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\ReturnToSnapZone.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\TeleportDestination.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\GrabbablesInTrigger.cs" />
@@ -364,8 +363,8 @@
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Other\Colors\ColorChanger.cs" />
     <Compile Include="Assets\Settings\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\LaserSword.cs" />
-    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerTeleport.cs" />
     <Compile Include="Assets\Packs\Main Character Energy\Weapons\Realistic Effects Pack v4\Effects\Scripts\Curves\RFX4_ShaderFloatCurve.cs" />
+    <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\PlayerTeleport.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\TrackedDevice.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\HandCollision.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\DrawerSound.cs" />
@@ -385,6 +384,7 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\VREmulator.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Extras\CalibratePlayerHeight.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\ClothingAddOn.cs" />
+    <Compile Include="Assets\Packs\Main Character Energy\Character\VR Body\AnimateOnInput.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Packs\Nature Sets\NekoLegends\SharedAssets\Scripts\PatrolAnimator.cs" />
@@ -403,7 +403,6 @@
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Drawing\PenColorChanger.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\UI\UICanvasGroup.cs" />
-    <Compile Include="Assets\Scripts\WeaponTrack.cs" />
     <Compile Include="Assets\Packs\UI Sets\VR UIP\Scripts\Tools\Handlers\GrabHandler.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Core\ArmSwingLocomotion.cs" />
     <Compile Include="Assets\Packs\VR Interaction Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
@@ -511,7 +510,6 @@
     <None Include="Assets\Settings\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
     <None Include="Assets\Packs\VR Interaction Framework\Integrations\WebXR\Readme.txt" />
     <None Include="Assets\Settings\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Packs\Main Character Energy\Horse AnimSet Pro\Events\Fonts\OpenSans\License!.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1570,12 +1568,12 @@
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Hands.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Hands.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1598,8 +1596,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
@@ -1618,12 +1616,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Hands">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Management">
@@ -1891,11 +1889,9 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.csproj" />
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
-    <ProjectReference Include="MalbersAnimations.csproj" />
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorWizard.csproj" />
     <ProjectReference Include="BNGHandPoseID.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
-    <ProjectReference Include="MalbersAnimations.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
     <ProjectReference Include="ReadyPlayerMe.Samples.QuickStart.csproj" />
   </ItemGroup>

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalbersAnimations", "MalbersAnimations.csproj", "{E7349455-0F6C-1FDA-147D-0DD3AC153E15}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarCreatorElements", "ReadyPlayerMe.Samples.AvatarCreatorElements.csproj", "{13AFC19F-9103-1F57-F24B-2AFC8F8CC895}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{56B472E4-B5BB-2E74-1120-511C82858E49}"
@@ -16,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.QuickStart", "ReadyPlayerMe.Samples.QuickStart.csproj", "{DCEE427C-E7FE-25AD-1586-8B92C0751048}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarCreatorWizard", "ReadyPlayerMe.Samples.AvatarCreatorWizard.csproj", "{EF58C594-30AF-C5DE-8444-6D311EB63582}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalbersAnimations.Editor", "MalbersAnimations.Editor.csproj", "{598B0101-7413-DED8-2C1F-C18756B30E40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{CC41185A-6575-2145-3E9C-B5A803DB9034}"
 EndProject
@@ -33,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7349455-0F6C-1FDA-147D-0DD3AC153E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7349455-0F6C-1FDA-147D-0DD3AC153E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7349455-0F6C-1FDA-147D-0DD3AC153E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7349455-0F6C-1FDA-147D-0DD3AC153E15}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13AFC19F-9103-1F57-F24B-2AFC8F8CC895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13AFC19F-9103-1F57-F24B-2AFC8F8CC895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13AFC19F-9103-1F57-F24B-2AFC8F8CC895}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,10 +57,6 @@ Global
 		{EF58C594-30AF-C5DE-8444-6D311EB63582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF58C594-30AF-C5DE-8444-6D311EB63582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF58C594-30AF-C5DE-8444-6D311EB63582}.Release|Any CPU.Build.0 = Release|Any CPU
-		{598B0101-7413-DED8-2C1F-C18756B30E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{598B0101-7413-DED8-2C1F-C18756B30E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{598B0101-7413-DED8-2C1F-C18756B30E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{598B0101-7413-DED8-2C1F-C18756B30E40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC41185A-6575-2145-3E9C-B5A803DB9034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC41185A-6575-2145-3E9C-B5A803DB9034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC41185A-6575-2145-3E9C-B5A803DB9034}.Release|Any CPU.ActiveCfg = Release|Any CPU

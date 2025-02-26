@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -8,19 +9,18 @@ public class FightLogic : MonoBehaviour
     private int enemyKillCount = 0;
     private const int killThreshold = 12; // Kills to spawn boss
     private SpawnManager spawnManager;
-    private WeaponTrack weaponTrack;
-    public GameObject swordShotEffectPrefab;
     public GameObject bowShotEffectPrefab;
     public GameObject deathEffectPrefab1;
     public GameObject deathEffectPrefab2;
     public InputActionReference shootAction;
     public GameObject lifeBarPrefab;
     private GameObject healthBar;
+    private bool isBoss = false;
+    private Coroutine healingCoroutine;
 
     void Start()
     {
         spawnManager = Object.FindFirstObjectByType<SpawnManager>();
-        weaponTrack = Object.FindFirstObjectByType<WeaponTrack>();
         shootAction.action.Enable();
 
         if (lifeBarPrefab != null)
@@ -51,52 +51,30 @@ public class FightLogic : MonoBehaviour
 
     void Shoot()
     {
-        if (weaponTrack.currentWeapon.CompareTag("Bow"))
+        if (GameObject.FindGameObjectsWithTag("Bow").Length > 0)
         {
             // Instantiate the shot effect at the bow's position and rotation
-            GameObject shotEffect = Instantiate(bowShotEffectPrefab, weaponTrack.bowGrabPoint.position, weaponTrack.bowGrabPoint.rotation);
-
-            // Raycast to check what the shot hits
+            GameObject shotEffect = Instantiate(bowShotEffectPrefab, transform.position, transform.rotation);
             RaycastHit hit;
-            if (Physics.Raycast(weaponTrack.bowGrabPoint.position, weaponTrack.bowGrabPoint.forward, out hit))
+            if (Physics.Raycast(transform.position, transform.forward, out hit))
             {
                 FightLogic target = hit.collider.GetComponent<FightLogic>();
                 if (target != null)
                 {
                     target.TakeDamage(20);
-                    HandleWeaponKill("Bow");
+                    Instantiate(bowShotEffectPrefab, transform.position, Quaternion.identity);
+                    Debug.Log("Target hit! - 20");
                 }
             }
-
-            // Destroy shot effect after a short duration
-            Destroy(shotEffect, 2f);
-        }
-        else if (weaponTrack.currentWeapon.CompareTag("Sword"))
-        {
-            // Instantiate the shot effect at the sword's position and rotation
-            GameObject shotEffect = Instantiate(swordShotEffectPrefab, weaponTrack.swordGrabPoint.position, weaponTrack.swordGrabPoint.rotation);
-
-            // Raycast to check what the shot hits
-            RaycastHit hit;
-            if (Physics.Raycast(weaponTrack.swordGrabPoint.position, weaponTrack.swordGrabPoint.forward, out hit))
-            {
-                FightLogic target = hit.collider.GetComponent<FightLogic>();
-                if (target != null)
-                {
-                    target.TakeDamage(20);
-                    HandleWeaponKill("Sword");
-                }
-            }
-
             // Destroy shot effect after a short duration
             Destroy(shotEffect, 2f);
         }
     }
 
-    // Method to deal damage to this entity
     public void TakeDamage(int damage)
     {
         health -= damage;
+        health = Mathf.Max(health, 0);
         if (health <= 0)
             Die();
     }
@@ -106,7 +84,12 @@ public class FightLogic : MonoBehaviour
         PlayDeathEffects(transform.position);
         Destroy(healthBar);
         Destroy(gameObject);
-        HandleKill();
+        Debug.Log("Target died!");
+
+        if (isBoss)
+            Object.FindFirstObjectByType<EndGame>().ReturnOfTheSpirit();
+        else
+            HandleKill();
     }
 
     private void HandleKill()
@@ -116,36 +99,26 @@ public class FightLogic : MonoBehaviour
             spawnManager.SpawnBoss();
     }
 
-    public void HandleWeaponKill(string weaponType)
-    {
-        switch (weaponType)
-        {
-            case "Sword":
-                // Call gore effect
-                Debug.Log("Sword kill");
-                PlayGoreEffects();
-                break;
-            case "Bow":
-                // Call magic effect
-                Debug.Log("Bow kill");
-                PlayMagicEffects();
-                break;
-        }
-    }
-
-    private void PlayGoreEffects()
-    {
-        Instantiate(swordShotEffectPrefab, transform.position, Quaternion.identity);
-    }
-
-    private void PlayMagicEffects()
-    {
-        Instantiate(bowShotEffectPrefab, transform.position, Quaternion.identity);
-    }
-
     public void PlayDeathEffects(Vector3 position)
     {
         GameObject deathEffect = Random.Range(0, 2) == 0 ? deathEffectPrefab1 : deathEffectPrefab2;
         Instantiate(deathEffect, position, Quaternion.identity);
+    }
+
+    public void SetAsBoss()
+    {
+        isBoss = true;
+        if (healingCoroutine == null)
+            healingCoroutine = StartCoroutine(HealOverTime());
+    }
+
+    public IEnumerator HealOverTime()
+    {
+        while (health > 0)
+        {
+            health += 1;
+            health = Mathf.Min(health, 100);
+            yield return new WaitForSeconds(30f);
+        }
     }
 }

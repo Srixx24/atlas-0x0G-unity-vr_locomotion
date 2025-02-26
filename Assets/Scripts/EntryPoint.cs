@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class EntryPoint : MonoBehaviour
 {
     public Button startButton;
-    public Button optionsButton;
     public Button exitButton;
+    public Button mainMenuButton;
     private AudioSource audioSource;
     public AudioClip buttonClickSound;
     public TransitionManager transitionManager;
+    public GameObject parentMainMenu;
+    public GameObject parentEndGame;
 
 
     void Start()
@@ -18,8 +20,10 @@ public class EntryPoint : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = buttonClickSound;
         startButton.onClick.AddListener(OnStartButtonClick);
-        optionsButton.onClick.AddListener(OnOptionsButtonClick);
         exitButton.onClick.AddListener(OnExitButtonClicked);
+        mainMenuButton.onClick.AddListener(OnReturnToMainMenuButtonClick);
+        parentMainMenu.SetActive(true);
+        parentEndGame.SetActive(false);
     }
 
     private void PlayButtonClickSound()
@@ -34,10 +38,12 @@ public class EntryPoint : MonoBehaviour
         transitionManager.LoadScene(1);
     }
 
-    private void OnOptionsButtonClick()
+    private void OnReturnToMainMenuButtonClick()
     {
-        //PlayButtonClickSound();
-        //transitionManager.LoadScene();
+        PlayButtonClickSound();
+        parentMainMenu.SetActive(true);
+        parentEndGame.SetActive(false);
+        Object.FindFirstObjectByType<EndGame>().SetPlayerPosition(gameObject);
     }
 
     private void OnExitButtonClicked()
