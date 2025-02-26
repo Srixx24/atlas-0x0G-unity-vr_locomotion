@@ -4,12 +4,13 @@ using System.Collections;
 
 public class PlayerLife : MonoBehaviour
 {
-    public int health = 100;
-    private const int maxHealth = 100;
+    public int health = 100000;
+    private const int maxHealth = 100000;
     private RezManager rezManager;
     private SpawnManager spawnManager;
     public Image lifeBarImage;
     public GameObject deathCanvas;
+    private Coroutine healingCoroutine;
 
 
     void Start()
@@ -17,7 +18,7 @@ public class PlayerLife : MonoBehaviour
         rezManager = Object.FindFirstObjectByType<RezManager>();
         spawnManager = Object.FindFirstObjectByType<SpawnManager>();
         UpdateLifeBar();
-        Object.FindFirstObjectByType<FightLogic>().HealOverTime();
+        PlayerHeal();
         if (deathCanvas != null)
             deathCanvas.SetActive(false);
     }
@@ -57,7 +58,24 @@ public class PlayerLife : MonoBehaviour
     private void UpdateLifeBar()
     {
         if (lifeBarImage != null)
-            lifeBarImage.fillAmount = (float)health / 100;
+            lifeBarImage.fillAmount = (float)health / maxHealth;
+    }
+
+    private void PlayerHeal()
+    {
+        if (healingCoroutine == null)
+            healingCoroutine = StartCoroutine(OverTimeHeal());
+    }
+
+    public IEnumerator OverTimeHeal()
+    {
+        while (health > 0)
+        {
+            health += 1000;
+            health = Mathf.Min(health, maxHealth);
+            UpdateLifeBar();
+            yield return new WaitForSeconds(20f);
+        }
     }
 
     private void ResetLifeBar()
